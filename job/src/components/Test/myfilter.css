@@ -1,0 +1,110 @@
+/* Add the following styles to your existing CSS file */
+
+.job-listings-container {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.search-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 12px rgba(17, 14, 14, 0.1);
+  padding: 10px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+.job-card {
+  background-color: #6db6f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.job-card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.company,
+.location,
+.type {
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 13px;
+  color: gray;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: auto;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .card-container {
+      grid-template-columns: 1fr;
+      max-width: 612px;
+  }
+
+  .search-bar {
+      flex-direction: column;
+      width: 612px;
+      
+  }
+  h1{
+    margin-left:172px;
+  }
+
+}

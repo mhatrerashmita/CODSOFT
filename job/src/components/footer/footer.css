@@ -1,0 +1,72 @@
+/* Add your CSS styles for the footer */
+
+.footer {
+    background-color: #272728;
+    color: #d6c1c1;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    width: 30%;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    margin: 0;
+    margin-bottom: 8px;
+    cursor: pointer;
+    color:rgb(190, 183, 183);
+    font-size: 15px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+  }
+  
+  .footer-section p:hover {
+    color:#0595d2;
+  }
+  i{
+    cursor: pointer;
+    padding: 15px;
+  }
+
+  .fa-facebook:hover{
+    background: linear-gradient(to right,#1877F2,white);
+    transform: rotateZ(130deg);
+  }
+  .fa-linkedin:hover{
+    background: linear-gradient(to right,#0A66C2,white);
+    transform: rotateZ(130deg);
+  }
+  .fa-twitter:hover{
+    background: linear-gradient(to right,#1DA1F2,white);
+    transform: rotateZ(130deg);
+  }
+  
+  .fa-instagram:hover{
+    background: linear-gradient(to right, #833ab4, #ed55f8, #e7a64b);
+    transform: rotateZ(130deg);
+  }
+  @media (max-width: 768px) {
+    .footer
+    {
+      width: 612px;
+    }
+    
+  }

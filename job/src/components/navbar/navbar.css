@@ -1,0 +1,87 @@
+/* Navbar Styles */
+.navbar {
+
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url('../home/job.jpg'); */
+    height: 100px;
+    transition: background-color 0.3s ease;
+  
+    
+  }
+  .navbar.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white; /* Change this to your desired sticky background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navContainer {
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    position: fixed;
+    
+  }
+  
+  .logo {
+    /* Add styles for your logo */
+    mix-blend-mode: multiply;
+    border-radius: 100px;
+    
+  }
+  
+  .navItems {
+    display: flex;
+    gap: 90px;
+    /* margin-left: 420px; */
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: rgb(102, 106, 109);
+    font-weight: 900;
+    transition: color 0.3s ease;
+    text-underline-offset: none;
+    
+   
+  }
+  
+
+  button {
+    background-color:#29ADB2;
+    color: #0c0c0c;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+    
+  }
+  
+  
+  button:hover {
+    background-color: #84cbf7; /* Change to your desired hover color */
+  }
+  
+  /* Optional: Add responsive styles */
+  @media screen and (max-width: 768px) {
+    .navContainer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navItems {
+      margin-top: 10px;
+    }
+    
+  }
+  #basic-nav-dropdown{
+    color: black;
+    font-size: 20px;
+  }
+ 
