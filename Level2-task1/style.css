@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(to right, orange, white, rgb(47, 192, 47))
+}
+
+.image {
+
+    display: flex;
+}
+
+.about {
+    /* background-color: rgb(156, 103, 38); */
+
+    margin-bottom: 30px;
+    margin-left: 55px;
+    box-shadow: 1px 3px 50px rgb(214, 216, 208);
+    width: 90vw;
+    border-radius: 15px;
+}
+
+H1 {
+
+    text-shadow: 5px 6px 10px rgb(83, 80, 80);
+    margin-right: 13px;
+    color: rgb(2, 12, 54);
+    font-size: 300;
+
+
+}
+
+img {
+    height: 370px;
+    width: 800px;
+    margin-top: 45px;
+    margin-left: 45px;
+    background-color: black;
+    box-shadow: 5px 5px 50px rgba(23, 23, 24, 0.607);
+    border: 2px solid rgb(70, 69, 69);
+    border-radius: 15px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+
+}
+
+h2 {
+    text-align: center;
+    color: rgb(2, 1, 39);
+    padding-top: 40px;
+    font-size: 40px;
+    text-shadow: 5px 6px 10px black;
+}
+
+.info {
+    color: rgb(4, 6, 94);
+    font-size: 150;
+}
+
+.fa-solid {
+    color: #000;
+}
+
+.aboutmhatma {
+    margin-left: 53px;
+    margin-top: 40px;
+    height: 350px;
+    width: 500px;
+    box-shadow: 5px 5px 50px rgba(13, 13, 14, 0.107);
+    padding: 13px;
+    border-radius: 2px;
+    color: rgb(2, 2, 85);
+    border-radius: 15px;
+}
+
+.footer {
+    text-align: center;
+}
